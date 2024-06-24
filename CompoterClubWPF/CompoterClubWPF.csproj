@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="boy.png" />
+    <None Remove="boy2.png" />
+    <None Remove="logout.png" />
+    <None Remove="Компьютер.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.17" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComputerClubDomain\ComputerClubDomain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="boy.png" />
+    <Resource Include="boy2.png" />
+    <Resource Include="logout.png" />
+    <Resource Include="Компьютер.png" />
+  </ItemGroup>
+
+</Project>

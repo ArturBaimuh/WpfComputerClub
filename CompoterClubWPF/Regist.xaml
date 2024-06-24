@@ -1,0 +1,32 @@
+﻿<Window x:Class="CompoterClubWPF.Regist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompoterClubWPF"
+        mc:Ignorable="d"
+        Title="Регистрация
+        " Height="636" Width="720" ResizeMode="NoResize">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="236,47,0,0" FontSize="20" FontWeight="Bold" Foreground="Red" Height="38" Width="253" FontFamily="Rockwell Extra Bold"><Run Text=" "/><Run Language="ru-ru" Text="Д"/><Run Text="обавить ученика"/></TextBlock>
+        <TextBox x:Name="Namet" HorizontalAlignment="Left" Margin="234,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" Height="36"/>
+        <TextBox x:Name="loginT" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="37" Margin="234,397,0,0" FontSize="16"/>
+        <TextBox x:Name="FamiT" HorizontalAlignment="Left" Margin="234,227,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="35" FontSize="16"/>
+        <TextBox x:Name="OtchT" HorizontalAlignment="Left" Margin="234,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="37" FontSize="16"/>
+        <TextBox x:Name="PaswwT" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="37" Margin="234,475,0,0" FontSize="16"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="236,116,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="54" FontFamily="Rockwell Extra Bold"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="236,191,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="95" FontFamily="Rockwell Extra Bold"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="234,276,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="86" FontFamily="Rockwell Extra Bold"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="236,349,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="86"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="234,361,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="86" FontFamily="Rockwell Extra Bold"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="234,434,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="86" FontFamily="Rockwell Extra Bold"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="236,539,0,0" VerticalAlignment="Top" Height="37" Width="107" FontSize="18" Click="Button_ClickAsync" FontFamily="Rockwell Extra Bold" BorderBrush="Black"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="360,539,0,0" VerticalAlignment="Top" Height="37" Width="107" FontSize="16" Click="Button_Click" FontFamily="Rockwell Extra Bold" BorderBrush="#FF1B1B1B" RenderTransformOrigin="1.065,0.623"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="234,434,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="86" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="Comp" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" Height="37" Margin="485,475,0,0" FontSize="16"/>
+        <Label Content="Номер компьютера" HorizontalAlignment="Left" Margin="485,434,0,0" VerticalAlignment="Top" FontSize="16" Height="31" Width="190" FontFamily="Rockwell Extra Bold"/>
+        <CheckBox x:Name="work" Content="Работник" HorizontalAlignment="Left" Margin="485,549,0,0" VerticalAlignment="Top" FontSize="16" Height="23" Width="190" FontFamily="Rockwell Extra Bold" />
+
+    </Grid>
+</Window>

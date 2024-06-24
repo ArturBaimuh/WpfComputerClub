@@ -1,0 +1,15 @@
+﻿<Window x:Class="MonitoringWPF.CreateComp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonitoringWPF"
+        mc:Ignorable="d"
+        Title="CreateComp" Height="384" Width="646">
+    <Grid>
+        <Image  HorizontalAlignment="Left" Height="309" Margin="66,52,0,0" VerticalAlignment="Top" Width="226" Source="Resurs/Компьютер.png"/>
+        <Button x:Name="c" Content="Довавить компьютер" HorizontalAlignment="Left" Height="30" Margin="346,283,0,0" VerticalAlignment="Top" Width="206" Click="payB_ClickAsynck"/>
+        <Label x:Name="idcompL" Content="Описание компьютера  :  " HorizontalAlignment="Left" Margin="318,65,0,0" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="opesaT" HorizontalAlignment="Left" Height="124" Margin="318,107,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="263"/>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="CompoterClubWPF.ComputerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompoterClubWPF"
+        mc:Ignorable="d"
+        Title="ComputerWindow" Height="429" Width="616" ResizeMode="NoResize">
+    <Grid>
+        <Image  HorizontalAlignment="Left" Height="72" Margin="48,28,0,0" VerticalAlignment="Top" Width="106" Source="resurs/Компьютер.png"/>
+        <Label x:Name="idcompL" Content="ИД Компьютера  :  " HorizontalAlignment="Left" Margin="156,28,0,0" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="opesaT" HorizontalAlignment="Left" Height="234" AcceptsReturn="True" IsReadOnly="True" Margin="48,115,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="535"  />
+        <Label x:Name="idcompL_Копировать" Content="История Компьютера  :  " HorizontalAlignment="Left" Margin="156,74,0,0" VerticalAlignment="Top" Width="216"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Height="22" Margin="449,364,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
+
+    </Grid>
+</Window>
